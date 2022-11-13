@@ -15,5 +15,10 @@ public class TestController {
 	{
 		return "<h2> TEST FOR JENKINS</h2>";
 	}
+	@GetMapping("/data")
+	public String getDbs()
+	{
+		return "<h2> TEST JENKINS BUILDING</h2>";
+	}
 
 }
