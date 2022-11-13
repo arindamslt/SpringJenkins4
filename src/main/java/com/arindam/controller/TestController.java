@@ -10,5 +10,10 @@ public class TestController {
 	{
 		return "<h2>WELCOME</h2>";
 	}
+	@GetMapping("/home")
+	public String getDatas()
+	{
+		return "<h2> TEST FOR JENKINS</h2>";
+	}
 
 }
